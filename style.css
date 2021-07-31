@@ -4,3 +4,19 @@ body {
 a:visited {
   color: #cc00ff;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
