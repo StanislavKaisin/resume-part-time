@@ -20,3 +20,20 @@ img {
   margin: 0 auto;
   max-width: 600px;
 }
+@media only screen and (min-width: 600px) {
+  .section-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .list-item-container {
+    display: flex;
+  }
+  .list-item-date {
+    width: 150px;
+  }
+  .list-item-date + p {
+    width: 450px;
+  }
+}
